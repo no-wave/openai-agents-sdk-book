@@ -1,6 +1,6 @@
 # 핸즈온 OpenAI Agent SDK with Python 
 
-LLM 에이전트 구축을 위한 OpenAI Agents SDK 핵심 패턴 실전 가이드
+### LLM 에이전트 구축을 위한 OpenAI Agents SDK 핵심 패턴 실전 가이드
 
 
 <img src="https://beat-by-wire.gitbook.io/beat-by-wire/~gitbook/image?url=https%3A%2F%2F3055094660-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FYzxz4QeW9UTrhrpWwKiQ%252Fuploads%252Fg0CrHJKxFhR9l2N3Odls%252FFrame%25205.png%3Falt%3Dmedia%26token%3D71c96ca4-ae31-4518-a680-7147a01eb10b&width=300&dpr=4&quality=100&sign=740e310b&sv=2" width="500" height="707"/>
