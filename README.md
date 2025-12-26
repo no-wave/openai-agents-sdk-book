@@ -1,4 +1,6 @@
-# 핸즈온 OpenAI Agent SDK with Python - LLM 에이전트 구축을 위한 OpenAI Agents SDK 핵심 패턴 실전 가이드
+# 핸즈온 OpenAI Agent SDK with Python 
+
+LLM 에이전트 구축을 위한 OpenAI Agents SDK 핵심 패턴 실전 가이드
 
 
 <img src="https://beat-by-wire.gitbook.io/beat-by-wire/~gitbook/image?url=https%3A%2F%2F3055094660-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FYzxz4QeW9UTrhrpWwKiQ%252Fuploads%252Fg0CrHJKxFhR9l2N3Odls%252FFrame%25205.png%3Falt%3Dmedia%26token%3D71c96ca4-ae31-4518-a680-7147a01eb10b&width=300&dpr=4&quality=100&sign=740e310b&sv=2" width="500" height="707"/>
@@ -30,118 +32,159 @@ Table of Contents (목차)
 제1장: OpenAI Agentss SDK 시작하기
 
 1.1. Hello World - 첫 번째 에이전트 만들기
+
 1.2. 문서 작성 에이전트 - 고급 설정
+
 1.3. 구조화된 출력 에이전트
+
 1.4. 대화형 에이전트
 
 제2장: 메모리(Memory) 관리
 
 2.1. 무상태 에이전트 - 기본 동작 이해
+
 2.2. 영속 메모리 - 자동 대화 기록
+
 2.3. 수동 메모리 관리
+
 2.4. 컨텍스트 메모리 - 애플리케이션 상태 관리
+
 2.5. 고급 컨텍스트 메모리 - 장기 기억 시스템
+
 2.6. 복합 메모리와 컨텍스트
 
 제3장: 세션(Session) 관리
 
 3.1. 세션 사용하기
+
 3.2. 세션 저장하기
+
 제4장: 동적 지시문과 모델 설정
+
 4.1. 동적 지시문 에이전트 (Instruction Agent)
+
 4.2. 모델 설정 구성
 
 제5장: 실행 결과 분석과 모니터링
 
 5.1. RunResult 기초
+
 5.2. RunResult 심층 분석
+
 5.3. RunResult와 대화 관리
+
 5.4. RunResult 프로덕션 모니터링
 
 제6장: 프로덕션 수준 에이전트 구축
 
 6.1. 단계별 프로덕션 에이전트 구축
+
 6.2. 최종 프로덕션 데모 실행
 
 제7장: 에러 핸들링과 디버깅
 
 7.1. 에러 핸들링 에이전트
+
 7.2. 실행 결과 에러 분석
+
 7.3. 에이전트 실행 디버깅
 
 제8장: 도구(Tool) 통합 기초
 
 8.1. 기본 도구 통합
+
 8.2. 고급 도구 통합
 
 제9장: 도구(Tool) 활용 및 고급 패턴
 
 9.1. 함수 도구 활용
+
 9.2. OpenAI 호스팅 도구
 
 제10장: 고객 서비스 에이전트와 대화 관리
 
 10.1. 고객 서비스 에이전트 메모리
+
 10.2. 프로덕션 대화 관리
 
 제11장: 실행 패턴 (Execution Patterns)
 
 11.1. 동기 실행 (Synchronous Execution)
+
 11.2. 비동기 실행 (Asynchronous Execution)
+
 11.3. 스트리밍 실행 (Streaming Execution)
 
 제12장: 설정 관리와 최적화(Optimization)
 
 12.1. 설정 관리 (Configuration Management)
+
 12.2. 토큰 최적화 (Token Optimization)
+
 12.3. 메모리 최적화 (Memory Optimization)
 
 제13장: 가드레일(Guardrails)& 모더레이션(Moderation)
 
 13.1. 기본 입력 가드레일
+
 13.2. 고급 입력 검증
+
 13.3. 콘텐츠 모더레이션
+
 13.4. 도메인별 가드레일 (의료 분야)
 
 제14장: 모니터링(Monitoring)과 엣지 케이스 처리
 
 14.1. 사전 모니터링 시스템
+
 14.2. 실시간 에이전트 모니터링
+
 14.3. 엣지 케이스 처리
 
 제15장: 핸드오프(Handoff) & 라우팅(Routing)
 
 15.1. 기본 에이전트 핸드오프
+
 15.2. 다중 핸드오프 라우터
+
 15.3. 커스텀 핸드오프 함수
+
 15.4. 핸드오프 입력 필터
 
 제16장: 관찰 가능성과 추적 (Observability & Tracing)
 
 16.1. 기본 관찰 가능성
+
 16.2. 커스텀 비즈니스 메트릭
 
 제17장: 에이전트 오케스트레이션 패턴
 
 17.1. 코드 기반 오케스트레이션 (Code-based Orchestration)
+
 17.2. 하이브리드 오케스트레이션
+
 17.3. 공유 컨텍스트 패턴
 
 제18장: 멀티 에이전트 처리 패턴
 
 18.1. 순차 처리 (Sequential Processing)
+
 18.2. 병렬 처리 (Parallel Processing)
+
 18.3. 조건부 라우팅 (Conditional Routing)
 
 제19장: 팀 오케스트레이션 (Team Orchestration)
 
 19.1. 리서치 팀 오케스트레이션
+
 19.2. 전문화된 리서치 에이전트 생성
+
 19.3. 리서치 팀 실행 데모
 
 제20장: 멀티모달 에이전트
 
 20.1. 기본 비전 분석
+
 20.2. 고급 비전 에이전트
 
 결론 - 마무리 하며
