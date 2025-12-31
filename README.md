@@ -195,9 +195,9 @@ References. 참고 문헌
 
 ## E-Book 구매
 
-- Yes24: 
-- 교보문고: 
-- 알라딘: 
+- Yes24: https://www.yes24.com/product/goods/171359745
+- 교보문고: https://ebook-product.kyobobook.co.kr/dig/epd/ebook/E000012392928
+- 알라딘: http://aladin.kr/p/cCpi4
 
 ## Github 코드: 
 
